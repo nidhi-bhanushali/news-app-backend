@@ -1,3 +1,4 @@
 {
-    "mongoURI" : "mongodb+srv://nidhi123:43XqTl3hfuf9bu7D@newsapp.rfibx.mongodb.net/news?retryWrites=true&w=majority"
+    "mongoURI" : "mongodb+srv://nidhi123:43XqTl3hfuf9bu7D@newsapp.rfibx.mongodb.net/news?retryWrites=true&w=majority",
+    "jwtSecret" : "secret04"
 }
