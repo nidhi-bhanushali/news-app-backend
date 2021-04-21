@@ -9,9 +9,6 @@ connectDB();
 // Init middleware
 app.use(express.json({ extended: false }));
 
-app.get('/' , (req , res) => 
-    res.json({msg: 'Welcome to the News Application API'})
-);
 
 // Define routes
 app.use('/api/users' , require('./routes/users'))
